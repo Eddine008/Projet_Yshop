@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
- 
+
 body {
     background-color: #f4f4f4;
-    color: #333;
+    color: #000000;
 }
  
 header {
@@ -39,7 +41,7 @@ nav a {
  
  
 nav a:hover {
-    color: #00a8ff;
+    color: #f90404;
 }
  
 main {
@@ -89,7 +91,7 @@ main {
 .carte-produit .prix {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #00a8ff;
+    color: #ff0000;
     margin-bottom: 5px;
 }
  
@@ -112,7 +114,7 @@ main {
 }
  
 .carte-produit button:hover {
-    background-color: #00a8ff;
+    background-color: #ff0000;
 }
 .hero-carousel {
     width: 100%;
