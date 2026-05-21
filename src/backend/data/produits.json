@@ -6,7 +6,7 @@
     "quantite_stock": 30,
     "prix": 109.99,
     "devise": "€",
-    "images": ["assets/img/maillot_CDM/Europe/France/domicile_avant.jpg", "assets/img/maillot_CDM/Europe/France/domicile_arriere.jpg"],
+    "images": ["assets/img/maillot_CDM/Europe/France/domicile_avant.webp", "assets/img/maillot_CDM/Europe/France/domicile_arriere.webp"],
     "caracteristiques": { "sexe": "Homme", "tailles_disponibles": ["S", "M", "L", "XL"], "couleurs_disponibles": ["Bleu"], "type": "Maillot" },
     "equipementier": "Nike"
   }, 
@@ -17,7 +17,7 @@
     "quantite_stock": 30,
     "prix": 109.99,
     "devise": "€",
-    "images": ["assets/img/maillot_CDM/Europe/France/exterieur_avant.jpg", "assets/img/maillot_CDM/Europe/France/exterieur_arriere.jpg"],
+    "images": ["assets/img/maillot_CDM/Europe/France/exterieur_avant.webp", "assets/img/maillot_CDM/Europe/France/exterieur_arriere.webp"],
     "caracteristiques": { "sexe": "Homme", "tailles_disponibles": ["S", "M", "L", "XL"], "couleurs_disponibles": ["Blanc"], "type": "Maillot" },
     "equipementier": "Nike"
   }, 
@@ -28,7 +28,7 @@
     "quantite_stock": 30,
     "prix": 109.99,
     "devise": "€",
-    "images": ["assets/img/maillot_CDM/Europe/Angleterre/domicile_avant.jpg", "assets/img/maillot_CDM/Europe/Angleterre/domicile_arriere.jpg"],
+    "images": ["assets/img/maillot_CDM/Europe/Angleterre/domicile_avant.webp", "assets/img/maillot_CDM/Europe/Angleterre/domicile_arriere.webp"],
     "caracteristiques": { "sexe": "Homme", "tailles_disponibles": ["S", "M", "L", "XL"], "couleurs_disponibles": ["Blanc"], "type": "Maillot" },
     "equipementier": "Nike"
   }, 
@@ -39,7 +39,7 @@
     "quantite_stock": 30,
     "prix": 109.99,
     "devise": "€",
-    "images": ["assets/img/maillot_CDM/Europe/Angleterre/exterieur_avant.jpg", "assets/img/maillot_CDM/Europe/Angleterre/exterieur_arriere.jpg"],
+    "images": ["assets/img/maillot_CDM/Europe/Angleterre/exterieur_avant.webp", "assets/img/maillot_CDM/Europe/Angleterre/exterieur_arriere.webp"],
     "caracteristiques": { "sexe": "Homme", "tailles_disponibles": ["S", "M", "L", "XL"], "couleurs_disponibles": ["Bleu Foncé"], "type": "Maillot" },
     "equipementier": "Nike"
   },
@@ -52,8 +52,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Allemagne/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Allemagne/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Allemagne/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Allemagne/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -71,8 +71,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Allemagne/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Allemagne/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Allemagne/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Allemagne/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -90,8 +90,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Espagne/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Espagne/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Espagne/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Espagne/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -109,8 +109,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Espagne/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Espagne/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Espagne/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Espagne/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -128,8 +128,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Belgique/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Belgique/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Belgique/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Belgique/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -147,8 +147,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Belgique/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Belgique/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Belgique/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Belgique/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -166,8 +166,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Pays-Bas/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Pays-Bas/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Pays-Bas/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Pays-Bas/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -185,8 +185,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Pays-Bas/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Pays-Bas/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Pays-Bas/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Pays-Bas/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -204,8 +204,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Portugal/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Portugal/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Portugal/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Portugal/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -223,8 +223,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Portugal/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Portugal/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Portugal/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Portugal/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -241,8 +241,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Croatie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Croatie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Croatie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Croatie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -260,8 +260,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Croatie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Croatie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Croatie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Croatie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -279,8 +279,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Suisse/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Suisse/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Suisse/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Suisse/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -298,8 +298,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Suisse/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Suisse/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Suisse/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Suisse/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -317,8 +317,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Autriche/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Autriche/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Autriche/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Autriche/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -336,8 +336,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Autriche/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Autriche/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Autriche/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Autriche/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -355,8 +355,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Turquie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Turquie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Turquie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Turquie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -374,8 +374,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Turquie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Turquie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Turquie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Turquie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -393,8 +393,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Ecosse/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Ecosse/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Ecosse/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Ecosse/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -412,8 +412,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Ecosse/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Ecosse/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Ecosse/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Ecosse/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -431,8 +431,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Norvege/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Norvege/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Norvege/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Norvege/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -450,8 +450,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Norvege/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Norvege/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Norvege/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Norvege/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -469,8 +469,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Rep_Tcheque/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Rep_Tcheque/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Rep_Tcheque/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Rep_Tcheque/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -488,8 +488,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Rep_Tcheque/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Rep_Tcheque/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Rep_Tcheque/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Rep_Tcheque/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -507,8 +507,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Bosnie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Bosnie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Bosnie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Europe/Bosnie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -526,8 +526,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Europe/Bosnie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Europe/Bosnie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Europe/Bosnie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Europe/Bosnie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -545,8 +545,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Argentine/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Argentine/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Argentine/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Argentine/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -564,8 +564,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Argentine/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Argentine/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Argentine/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Argentine/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -583,8 +583,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Bresil/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Bresil/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Bresil/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Bresil/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -602,8 +602,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Bresil/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Bresil/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Bresil/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Bresil/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -621,8 +621,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Etats-Unis/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Etats-Unis/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Etats-Unis/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Etats-Unis/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -640,8 +640,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Etats-Unis/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Etats-Unis/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Etats-Unis/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Etats-Unis/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -659,8 +659,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Mexique/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Mexique/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Mexique/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Mexique/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -678,8 +678,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Mexique/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Mexique/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Mexique/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Mexique/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -697,8 +697,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Canada/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Canada/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Canada/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Canada/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -716,8 +716,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Canada/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Canada/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Canada/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Canada/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -735,8 +735,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Uruguay/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Uruguay/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Uruguay/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Uruguay/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -754,8 +754,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Uruguay/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Uruguay/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Uruguay/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Uruguay/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -773,8 +773,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Colombie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Colombie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Colombie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Colombie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -792,8 +792,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Colombie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Colombie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Colombie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Colombie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -811,8 +811,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Equateur/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Equateur/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Equateur/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Equateur/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -830,8 +830,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Equateur/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Equateur/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Equateur/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Equateur/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -849,8 +849,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Paraguay/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Paraguay/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Paraguay/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Paraguay/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -868,8 +868,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Paraguay/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Paraguay/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Paraguay/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Paraguay/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -887,8 +887,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Panama/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Panama/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Panama/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Panama/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -906,8 +906,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Panama/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Panama/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Panama/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Panama/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -925,8 +925,8 @@
     "prix": 80.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Haiti/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Haiti/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Haiti/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Haiti/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -944,8 +944,8 @@
     "prix": 80.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Haiti/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Haiti/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Haiti/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Haiti/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -963,8 +963,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Curacao/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Curacao/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Curacao/domicile_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Curacao/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -982,8 +982,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Amerique/Curacao/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Amerique/Curacao/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Amerique/Curacao/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Amerique/Curacao/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1001,8 +1001,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Maroc/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Maroc/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Maroc/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Maroc/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1020,8 +1020,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Maroc/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Maroc/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Maroc/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Maroc/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1039,8 +1039,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Algerie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Algerie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Algerie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Algerie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1058,8 +1058,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Algerie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Algerie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Algerie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Algerie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1077,8 +1077,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Senegal/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Senegal/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Senegal/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Senegal/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1096,8 +1096,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Senegal/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Senegal/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Senegal/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Senegal/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1115,8 +1115,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Egypte/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Egypte/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Egypte/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Egypte/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1134,8 +1134,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Egypte/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Egypte/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Egypte/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Egypte/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1153,8 +1153,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1172,8 +1172,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Cote_Ivoire/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1191,8 +1191,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Tunisie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Tunisie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Tunisie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Tunisie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1210,8 +1210,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Tunisie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Tunisie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Tunisie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Tunisie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1229,8 +1229,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Ghana/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Ghana/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Ghana/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Ghana/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1248,8 +1248,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Ghana/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Ghana/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Ghana/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Ghana/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1267,8 +1267,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1286,8 +1286,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Afrique_du_Sud/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1305,8 +1305,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/RDC/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/RDC/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/RDC/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/RDC/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1324,8 +1324,8 @@
     "prix": 90.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/RDC/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/RDC/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/RDC/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/RDC/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1343,8 +1343,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Cap_Vert/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Cap_Vert/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Cap_Vert/domicile_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Cap_Vert/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1362,8 +1362,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Afrique/Cap_Vert/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Afrique/Cap_Vert/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Afrique/Cap_Vert/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Afrique/Cap_Vert/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1381,8 +1381,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Japon/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Japon/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Japon/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Japon/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1400,8 +1400,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Japon/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Japon/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Japon/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Japon/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1419,8 +1419,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Coree_Sud/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Coree_Sud/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Coree_Sud/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Coree_Sud/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1438,8 +1438,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Coree_Sud/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Coree_Sud/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Coree_Sud/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Coree_Sud/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1457,8 +1457,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Australie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Australie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Australie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Australie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1476,8 +1476,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Australie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Australie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Australie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Australie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1495,8 +1495,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1514,8 +1514,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Arabie_Saoudite/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1533,8 +1533,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Iran/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Iran/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Iran/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Iran/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1552,8 +1552,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Iran/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Iran/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Iran/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Iran/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1571,8 +1571,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Qatar/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Qatar/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Qatar/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Qatar/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1590,8 +1590,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Qatar/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Qatar/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Qatar/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Qatar/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1609,8 +1609,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Irak/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Irak/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Irak/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Irak/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1628,8 +1628,8 @@
     "prix": 100.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Irak/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Irak/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Irak/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Irak/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1647,8 +1647,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Ouzbekistan/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Ouzbekistan/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Ouzbekistan/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Ouzbekistan/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1666,8 +1666,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Ouzbekistan/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Ouzbekistan/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Ouzbekistan/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Ouzbekistan/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1685,8 +1685,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Jordanie/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Jordanie/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Jordanie/domicile_avant.webp",
+      "assets/img/maillot_CDM/Asie/Jordanie/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1704,8 +1704,8 @@
     "prix": 85.00,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Asie/Jordanie/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Asie/Jordanie/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Asie/Jordanie/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Asie/Jordanie/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1723,8 +1723,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/domicile_avant.jpg",
-      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/domicile_arriere.jpg"
+      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/domicile_avant.webp",
+      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/domicile_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
@@ -1742,8 +1742,8 @@
     "prix": 109.99,
     "devise": "€",
     "images": [
-      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/exterieur_avant.jpg",
-      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/exterieur_arriere.jpg"
+      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/exterieur_avant.webp",
+      "assets/img/maillot_CDM/Oceanie/Nouvelle_Zelande/exterieur_arriere.webp"
     ],
     "caracteristiques": {
       "sexe": "Homme",
