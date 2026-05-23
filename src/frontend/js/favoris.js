@@ -29,25 +29,46 @@ async function chargerPageFavoris() {
 }
 
 function creerCarteFavori(maillot, conteneur) {
-    const gabarit = document.getElementById('gabarit-maillot')
-    const clone = gabarit.content.cloneNode(true)
-    
-    const imageSrc = (maillot.images && maillot.images.length > 0) ? maillot.images[0] : './assets/img/default.png'
-    
-    clone.querySelector('.favori-img').src = imageSrc
-    clone.querySelector('.favori-img').alt = `Maillot ${maillot.nom}`
-    clone.querySelector('.favori-nom').textContent = maillot.nom
-    clone.querySelector('.favori-prix').textContent = `${maillot.prix} ${maillot.devise}`
-    
-    clone.querySelector('.btn-voir').onclick = () => {
-        window.location.href = `produit.html?id=${maillot.id}`
+    let imageSrc = './assets/img/default.png'
+    if (maillot.images && maillot.images.length > 0) {
+        imageSrc = maillot.images[0]
     }
     
-    clone.querySelector('.btn-retirer').onclick = () => {
+    const carte = document.createElement('div')
+    carte.className = 'carte-produit'
+    
+    const img = document.createElement('img')
+    img.src = imageSrc
+    img.alt = 'Maillot ' + maillot.nom
+    
+    const titre = document.createElement('h3')
+    titre.textContent = maillot.nom
+    
+    const prix = document.createElement('p')
+    prix.className = 'prix'
+    prix.textContent = maillot.prix + ' ' + maillot.devise
+    
+    const btnVoir = document.createElement('button')
+    btnVoir.className = 'btn-voir'
+    btnVoir.textContent = 'Voir le maillot'
+    btnVoir.onclick = () => {
+        window.location.href = 'produit.html?id=' + maillot.id
+    }
+    
+    const btnRetirer = document.createElement('button')
+    btnRetirer.className = 'btn-retirer'
+    btnRetirer.textContent = '❌ Retirer'
+    btnRetirer.onclick = () => {
         supprimerFavori(maillot.id)
     }
     
-    conteneur.appendChild(clone)
+    carte.appendChild(img)
+    carte.appendChild(titre)
+    carte.appendChild(prix)
+    carte.appendChild(btnVoir)
+    carte.appendChild(btnRetirer)
+    
+    conteneur.appendChild(carte)
 }
 
 function supprimerFavori(id) {

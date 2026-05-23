@@ -36,7 +36,7 @@ function afficherDetail(maillot) {
         maillot.images.forEach(imgUrl => {
             const img = document.createElement('img')
             img.src = imgUrl
-            img.alt = `Maillot ${maillot.nom}`
+            img.alt = 'Maillot ' + maillot.nom
             galerie.appendChild(img)
         })
     } else {
@@ -47,12 +47,12 @@ function afficherDetail(maillot) {
     }
     
     document.getElementById('nom-produit').textContent = maillot.nom
-    document.getElementById('prix-produit').textContent = `${maillot.prix} ${maillot.devise}`
+    document.getElementById('prix-produit').textContent = maillot.prix + ' ' + maillot.devise
     document.getElementById('desc-produit').textContent = description
     
     const elementStock = document.getElementById('stock-produit')
     if (maillot.quantite_stock > 0) {
-        elementStock.textContent = `En stock : ${maillot.quantite_stock} unités`
+        elementStock.textContent = 'En stock : ' + maillot.quantite_stock + ' unités'
         elementStock.className = "stock-disponible"
     } else {
         elementStock.textContent = "Rupture de stock"
