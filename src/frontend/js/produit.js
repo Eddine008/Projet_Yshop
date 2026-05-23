@@ -76,7 +76,7 @@ function ajouterAuxFavoris(id) {
     if (!mesFavoris.includes(id)) {
         mesFavoris.push(id)
         localStorage.setItem('listeFavoris', JSON.stringify(mesFavoris))
-        alert("Maillot ajouté à tes favoris ! 🤍")
+        alert("Maillot ajouté à tes favoris")
     } else {
         alert("Ce maillot est déjà dans tes favoris !")
     }

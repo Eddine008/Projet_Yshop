@@ -57,7 +57,7 @@ function creerCarteFavori(maillot, conteneur) {
     
     const btnRetirer = document.createElement('button')
     btnRetirer.className = 'btn-retirer'
-    btnRetirer.textContent = '❌ Retirer'
+    btnRetirer.textContent = 'Retirer'
     btnRetirer.onclick = () => {
         supprimerFavori(maillot.id)
     }
