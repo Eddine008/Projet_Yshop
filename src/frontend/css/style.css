@@ -39,7 +39,6 @@ nav a {
     transition: color 0.3s;
 }
  
- 
 nav a:hover {
     color: #f90404;
 }
@@ -114,6 +113,7 @@ main {
 .carte-produit button:hover {
     background-color: #ff0000;
 }
+
 .hero-carousel {
     width: 100%;
     overflow: hidden;
@@ -155,17 +155,16 @@ main {
     from {
         transform: translateX(0);
     }
-
     to {
         transform: translateX(-50%);
     }
-} 
+}
 
 .detail-container {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
-    background: none; 
+    background: none;
     padding: 30px;
     border-radius: 0;
     box-shadow: none;
@@ -174,13 +173,28 @@ main {
 .detail-image {
     flex: 1;
     min-width: 300px;
-    text-align: center;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 15px;
 }
 
 .detail-image img {
-    max-width: 100%;
+    flex: 0 0 100%;
     max-height: 500px;
     object-fit: contain;
+    border-radius: 10px;
+    scroll-snap-align: center;
+    background: white;
+}
+
+.detail-image::-webkit-scrollbar {
+    height: 8px;
+}
+
+.detail-image::-webkit-scrollbar-thumb {
+    background-color: #ccc;
     border-radius: 10px;
 }
 
@@ -212,7 +226,7 @@ main {
 }
 
 .stock-disponible {
-    color: #28a745;
+    color: #ff0000;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -238,4 +252,37 @@ main {
 
 .btn-ajout:hover {
     background-color: #ff0000;
+}
+
+.btn-favori {
+    background-color: white;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-favori:hover {
+    background-color: #f4f4f4;
+}
+
+.carte-produit .btn-voir {
+    margin-bottom: 10px;
+}
+
+.carte-produit .btn-retirer {
+    background-color: white;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    transition: background-color 0.3s;
+}
+
+.carte-produit .btn-retirer:hover {
+    background-color: #fff5f5;
 }

@@ -27,11 +27,24 @@ async function chargerDetailMaillot(id) {
 }
 
 function afficherDetail(maillot) {
-    const imageSrc = (maillot.images && maillot.images.length > 0) ? maillot.images[0] : './assets/img/default.png'
     const description = maillot.description || "Aucune description disponible pour ce modèle."
     
-    document.getElementById('img-produit').src = imageSrc
-    document.getElementById('img-produit').alt = `Maillot ${maillot.nom}`
+    const galerie = document.getElementById('galerie-produit')
+    galerie.innerHTML = ''
+    
+    if (maillot.images && maillot.images.length > 0) {
+        maillot.images.forEach(imgUrl => {
+            const img = document.createElement('img')
+            img.src = imgUrl
+            img.alt = `Maillot ${maillot.nom}`
+            galerie.appendChild(img)
+        })
+    } else {
+        const img = document.createElement('img')
+        img.src = './assets/img/default.png'
+        img.alt = "Image par défaut"
+        galerie.appendChild(img)
+    }
     
     document.getElementById('nom-produit').textContent = maillot.nom
     document.getElementById('prix-produit').textContent = `${maillot.prix} ${maillot.devise}`
@@ -48,8 +61,23 @@ function afficherDetail(maillot) {
 
     const boutonPanier = document.getElementById('btn-panier')
     boutonPanier.onclick = () => ajouterAuPanierDepuisDetail(maillot.id)
+
+    const boutonFavori = document.getElementById('btn-favori')
+    boutonFavori.onclick = () => ajouterAuxFavoris(maillot.id)
 }
 
 function afficherErreur(message) {
     document.getElementById('detail-produit').textContent = message
+}
+
+function ajouterAuxFavoris(id) {
+    let mesFavoris = JSON.parse(localStorage.getItem('listeFavoris')) || []
+    
+    if (!mesFavoris.includes(id)) {
+        mesFavoris.push(id)
+        localStorage.setItem('listeFavoris', JSON.stringify(mesFavoris))
+        alert("Maillot ajouté à tes favoris ! 🤍")
+    } else {
+        alert("Ce maillot est déjà dans tes favoris !")
+    }
 }
