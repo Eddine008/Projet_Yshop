@@ -15,13 +15,18 @@ async function chargerMaillots() {
         afficherMaillots(maillots);
     } catch (erreur) {
         console.error("Erreur lors du chargement des maillots :", erreur);
-        document.getElementById('catalogue').innerHTML = "<p>Impossible de charger le catalogue. Vérifiez que le serveur Node.js est bien allumé dans le terminal.</p>";
+        const catalogue = document.getElementById('catalogue');
+        if (catalogue) {
+            catalogue.innerHTML = "<p>Impossible de charger le catalogue. Vérifiez que le serveur Node.js est bien allumé dans le terminal.</p>";
+        }
     }
 }
 
 function afficherMaillots(listeMaillots) {
     const conteneurCatalogue = document.getElementById('catalogue');
     
+    if (!conteneurCatalogue) return; 
+
     conteneurCatalogue.innerHTML = '';
 
     listeMaillots.forEach(maillot => {

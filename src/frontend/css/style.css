@@ -13,7 +13,7 @@ body {
 }
  
 header {
-    background-color: #1a1a1a;
+    background-color: #000000;
     color: white;
     padding: 20px 40px;
     display: flex;
@@ -66,7 +66,6 @@ main {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
 }
  
@@ -91,7 +90,7 @@ main {
 .carte-produit .prix {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #ff0000;
+    color: #500b0b;
     margin-bottom: 5px;
 }
  
@@ -108,7 +107,6 @@ main {
     padding: 12px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
     width: 100%;
     transition: background-color 0.3s;
 }
@@ -162,3 +160,82 @@ main {
         transform: translateX(-50%);
     }
 } 
+
+.detail-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: none; 
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.detail-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.detail-image img {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.detail-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.detail-info h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.detail-info .prix {
+    font-size: 1.5rem;
+    color: #500b0b;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.detail-info h4 {
+    margin-bottom: 5px;
+}
+
+.detail-info .description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.stock-disponible {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stock-rupture {
+    color: #dc3545;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-ajout {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.btn-ajout:hover {
+    background-color: #ff0000;
+}
