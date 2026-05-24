@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     chargerCatalogue()
+    actualiserCompteurPanier()
 })
 
 async function chargerCatalogue() {
@@ -60,4 +61,12 @@ function creerCarteCatalogue(maillot, conteneur) {
     carte.appendChild(btnVoir)
 
     conteneur.appendChild(carte)
+}
+
+function actualiserCompteurPanier() {
+    const zoneCompteur = document.getElementById('compteur-panier')
+    if (zoneCompteur) {
+        let monPanier = JSON.parse(localStorage.getItem('panier')) || []
+        zoneCompteur.textContent = monPanier.length
+    }
 }

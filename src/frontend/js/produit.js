@@ -11,9 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function chargerDetailMaillot(id) {
     try {
-        const reponse = await fetch(`http://localhost:3000/api/maillots/${id}`)
+        const reponse = await fetch(`http://localhost:3000/api/maillots/${id}`, {
+            cache: 'no-store'
+        })
         
-        if (!reponse.ok) {
+        if (reponse.ok === false) {
             throw new Error(`Erreur HTTP: ${reponse.status}`)
         }
 
@@ -30,7 +32,7 @@ function afficherDetail(maillot) {
     const description = maillot.description || "Aucune description disponible pour ce modèle."
     
     const galerie = document.getElementById('galerie-produit')
-    galerie.innerHTML = ''
+    galerie.textContent = ''
     
     if (maillot.images && maillot.images.length > 0) {
         maillot.images.forEach(imgUrl => {
@@ -60,24 +62,59 @@ function afficherDetail(maillot) {
     }
 
     const boutonPanier = document.getElementById('btn-panier')
-    boutonPanier.onclick = () => ajouterAuPanierDepuisDetail(maillot.id)
+    if (boutonPanier) {
+        boutonPanier.onclick = () => ajouterAuPanier(maillot.id)
+    }
 
     const boutonFavori = document.getElementById('btn-favori')
-    boutonFavori.onclick = () => ajouterAuxFavoris(maillot.id)
+    if (boutonFavori) {
+        boutonFavori.onclick = () => ajouterAuxFavoris(maillot.id)
+    }
 }
 
 function afficherErreur(message) {
-    document.getElementById('detail-produit').textContent = message
+    document.getElementById('nom-produit').textContent = "Erreur"
+    document.getElementById('desc-produit').textContent = message
 }
 
 function ajouterAuxFavoris(id) {
-    let mesFavoris = JSON.parse(localStorage.getItem('listeFavoris')) || []
+    let donneesLocales = localStorage.getItem('listeFavoris')
+    let mesFavoris = []
     
-    if (!mesFavoris.includes(id)) {
+    if (donneesLocales !== null) {
+        mesFavoris = JSON.parse(donneesLocales)
+    }
+    
+    if (mesFavoris.includes(id) === false) {
         mesFavoris.push(id)
         localStorage.setItem('listeFavoris', JSON.stringify(mesFavoris))
         alert("Maillot ajouté à tes favoris")
     } else {
-        alert("Ce maillot est déjà dans tes favoris !")
+        alert("Ce maillot est déjà dans tes favoris")
+    }
+}
+
+function ajouterAuPanier(id) {
+    const selectTaille = document.getElementById('choix-taille')
+    let tailleChoisie = 'M' 
+    
+    if (selectTaille !== null) {
+        tailleChoisie = selectTaille.value
+    }
+
+    let donneesLocales = localStorage.getItem('panier')
+    let monPanier = []
+    
+    if (donneesLocales !== null) {
+        monPanier = JSON.parse(donneesLocales)
+    }
+    
+    monPanier.push(id)
+    localStorage.setItem('panier', JSON.stringify(monPanier))
+    
+    alert("Maillot ajouté au panier en taille " + tailleChoisie)
+    
+    if (typeof actualiserCompteurPanier === 'function') {
+        actualiserCompteurPanier()
     }
 }

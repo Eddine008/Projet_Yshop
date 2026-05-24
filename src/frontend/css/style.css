@@ -51,7 +51,11 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
- 
+
+ main h2 {
+    margin-bottom: 25px
+
+}
 #filtres {
     display: flex;
     justify-content: center;
@@ -90,13 +94,13 @@ main {
 .grille-produits {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
+    gap: 83px;
 }
  
 .carte-produit {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 17px;
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
     border: 2px solid #000000;  
@@ -327,3 +331,37 @@ main {
 .carte-produit .btn-retirer:hover {
     background-color: #ffffff;
 }
+
+#zone-paiement {
+    margin-top: 40px;
+    text-align: right;
+    border-top: 2px solid #ffffff;
+    padding-top: 20px;
+}
+
+#btn-valider-achat {
+    width: auto;
+    margin-top: 20px;
+}
+
+.selecteur-taille {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.selecteur-taille label {
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+#choix-taille {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: inherit;
+}
+
