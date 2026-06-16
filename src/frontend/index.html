@@ -3,33 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Y-Shop | Boutique de Maillots</title>
+    <title>Catalogue</title>
     <link rel="stylesheet" href="./css/style.css">
+    
+    <script defer src="./js/app.js"></script>
 </head>
 <body>
- 
     <header>
-        <img src="./assets/img/logo/logo.png" alt="Logo Y-Shop" id="logo-site">
-        <h1>Boutique Officielle</h1>
+        <a href="index.html">
+            <img src="./assets/img/logo/logo.png" alt="Logo Y-Shop" id="logo-site">
+        </a>
+        <h1>New Jersey</h1>
         <nav>
             <ul>
-                <li><a href="#">Catalogue</a></li>
-                <li><a href="#">Panier <span id="compteur-panier">(0)</span></a></li>
+                <li><a href="index.html">Catalogue</a></li>
+                <li><a href="favoris.html">Favoris</a></li>
+                <li><a href="panier.html">Panier</a></li>
             </ul>
         </nav>
     </header>
- 
+
     <main>
+        <section class="presentation-collection">
+    <h2>L'Équipement des Champions : Édition Coupe du Monde</h2>
+    <p>
+        Plonge au cœur de la plus prestigieuse des compétitions internationales avec notre sélection exclusive de maillots nationaux. Que tu sois là pour vibrer devant un match décisif à la télévision, pour représenter fièrement tes couleurs lors d'un five entre potes, ou simplement pour compléter ta collection de passionné, tu es exactement au bon endroit. 
+       
+    </p>
+</section>
         <section id="filtres">
-            <h2>Nos Maillots</h2>
+            <input type="text" id="recherche" placeholder="Rechercher un maillot">
+            <select id="filtre-marque">
+                <option value="">Toutes les marques</option>
+            </select>
+            <select id="filtre-couleur">
+                <option value="">Toutes les couleurs</option>
+            </select>
+            <select id="tri-nom">
+                <option value="asc">Nom A-Z</option>
+            </select>
         </section>
- 
-        <section id="catalogue" class="grille-produits">
-            <p>Chargement des maillots en cours...</p>
-        </section>
+
+        <div id="grille-accueil" class="grille-produits">
+            <p>Chargement du catalogue...</p>
+        </div>
     </main>
- 
-    <script src="./js/app.js"></script>
 </body>
 </html>
- 

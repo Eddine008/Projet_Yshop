@@ -1,27 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap');
+/*style adidas pour representer le sport */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
- 
+
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
 }
  
 header {
-    background-color: #1a1a1a;
+    background-color: #000000;
     color: white;
-    padding: 20px 40px;
+    padding: 0 40px; 
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
+    height: 90px; 
 }
  
 header img {
-    height: 50px; 
+    height: 80px; 
+    width: auto;
 }
  
 nav ul {
@@ -38,47 +42,81 @@ nav a {
     transition: color 0.3s;
 }
  
- 
 nav a:hover {
-    color: #00a8ff; 
+    color: #f90404;
 }
  
 main {
     padding: 40px 20px;
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
- 
+
+ main h2 {
+    margin-bottom: 25px
+
+}
 #filtres {
-    margin-bottom: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+#filtres input, 
+#filtres select {
+    padding: 12px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #000;
+    background-color: #fff;
+    outline: none;
+}
+
+#filtres input:focus, 
+#filtres select:focus {
+    border-color: #000;
+    box-shadow: inset 0 0 0 1px #000; 
+}
+
+#filtres input {
+    width: 280px;
+}
+
+#filtres select {
+    cursor: pointer;
 }
  
 .grille-produits {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
+    gap: 83px;
 }
  
 .carte-produit {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 17px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
+    border: 2px solid #000000;  
 }
  
 .carte-produit:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
  
 .carte-produit img {
     max-width: 100%;
     height: 250px;
-    object-fit: contain; 
+    object-fit: contain;
     margin-bottom: 15px;
+    
 }
  
 .carte-produit h3 {
@@ -90,31 +128,31 @@ main {
 .carte-produit .prix {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #00a8ff;
+    color: #ff0000;
     margin-bottom: 5px;
 }
  
 .carte-produit .stock {
     font-size: 0.9rem;
-    color: #888;
+    color: #ffffff;
     margin-bottom: 20px;
 }
-
+ 
 .carte-produit button {
-    background-color: #1a1a1a;
+    background-color: #020202;
     color: white;
     border: none;
     padding: 12px 20px;
-    border-radius: 5px;
+    border-radius: 7pwx;
     cursor: pointer;
-    font-weight: bold;
     width: 100%;
     transition: background-color 0.3s;
 }
  
 .carte-produit button:hover {
-    background-color: #00a8ff;
+    background-color: #ff0000;
 }
+
 .hero-carousel {
     width: 100%;
     overflow: hidden;
@@ -156,8 +194,174 @@ main {
     from {
         transform: translateX(0);
     }
-
     to {
         transform: translateX(-50%);
     }
 }
+
+.detail-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: none;
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.detail-image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 15px;
+}
+
+.detail-image img {
+    flex: 0 0 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+    scroll-snap-align: center;
+    background: white;
+}
+
+.detail-image::-webkit-scrollbar {
+    height: 8px;
+}
+
+.detail-image::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+.detail-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.detail-info h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.detail-info .prix {
+    font-size: 1.5rem;
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.detail-info h4 {
+    margin-bottom: 5px;
+}
+
+.detail-info .description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.stock-disponible {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stock-rupture {
+    color: #ff0019;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-ajout {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.btn-ajout:hover {
+    background-color: #ff0000;
+}
+
+.btn-favori {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-favori:hover {
+    background-color: #ffffff;
+}
+
+.carte-produit .btn-voir {
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: white;
+}
+
+.carte-produit .btn-voir:hover {
+    background-color: #ff0000;
+}
+
+.carte-produit .btn-retirer {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.carte-produit .btn-retirer:hover {
+    background-color: #ffffff;
+}
+
+#zone-paiement {
+    margin-top: 40px;
+    text-align: right;
+    border-top: 2px solid #ffffff;
+    padding-top: 20px;
+}
+
+#btn-valider-achat {
+    width: auto;
+    margin-top: 20px;
+}
+
+.selecteur-taille {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.selecteur-taille label {
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+#choix-taille {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: inherit;
+}
+
